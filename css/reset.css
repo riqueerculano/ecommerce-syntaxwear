@@ -27,9 +27,21 @@ dd {
   margin: 0;
 }
 
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul[role="list"],
 ol[role="list"] {
   padding: 0;
+  list-style: none;
+}
+
+ul,ol {
   list-style: none;
 }
 
