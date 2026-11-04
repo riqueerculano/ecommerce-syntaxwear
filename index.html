@@ -9,30 +9,36 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/components/header.css" />
-
+    <link rel="stylesheet" href="./css/components/hero.css" />
   </head>
   <body>
     <header class="header">
-      <!-- Adicione o logotipo da marca e a navegação principal aqui -->
-       <h1 class="logo">
-          <a href="#" title="SyntaxWear - Tênis e Sneakers Online">
-              <img src="./assets/images/logo/Logo.svg" alt="SyntaxWear - Tênis e Sneakers Online" />
-          </a>
-       </h1>
+      <!-- o logotipo da marca e a navegação principal aqui -->
+      <h1 class="logo">
+        <a href="#" title="SyntaxWear - Tênis e Sneakers Online">
+          <img
+            src="./assets/images/logo/Logo.svg"
+            alt="SyntaxWear - Tênis e Sneakers Online"
+          />
+        </a>
+      </h1>
       <nav class="nav-center" aria-label="Categorias principais">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">Masculino</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Feminino</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Outlet</a></li>
+          <li class="nav-item"><a href="#">Masculino</a></li>
+          <li class="nav-item"><a href="#">Feminino</a></li>
+          <li class="nav-item"><a href="#">Outlet</a></li>
         </ul>
       </nav>
       <nav class="nav-right" aria-label="Links de apoio e conta">
         <ul class="nav-utility-list">
-          <li><a class="nav-utility" href="#" class="nav-utility-link">Nossas lojas</a></li>
-          <li><a class="nav-utility" href="#" class="nav-utility-link">Sobre</a></li>
+          <li><a class="nav-utility" href="#">Nossas lojas</a></li>
+          <li><a class="nav-utility" href="#">Sobre</a></li>
           <li>
             <a class="nav-icon" href="#" aria-label="Minha conta">
-              <img src="./assets/images/icons/user.svg" alt="Ícone de usuário" />
+              <img
+                src="./assets/images/icons/user.svg"
+                alt="Ícone de usuário"
+              />
             </a>
           </li>
           <li>
@@ -42,7 +48,10 @@
           </li>
           <li>
             <a class="nav-icon" href="#" aria-label="Sacola de compras">
-              <img src="./assets/images/icons/bag.svg" alt="Ícone de sacola de compras" />
+              <img
+                src="./assets/images/icons/bag.svg"
+                alt="Ícone de sacola de compras"
+              />
             </a>
           </li>
         </ul>
@@ -50,7 +59,19 @@
     </header>
 
     <main>
-      <section class="hero" aria-label="Destaque principal"></section>
+      <section class="hero-section" aria-label="Destaque principal">
+        <!-- Seção Hero -->
+        <div class="hero-overlay">
+          <div class="hero-content">
+            <span class="hero-subtitle">Krypton One</span>
+            <h2 class="hero-title">Transforme qualquer passo em presença</h2>
+            <div class="hero-buttons">
+              <a class="btn btn-outline" href="#">Ver modelos</a>
+              <a class="btn btn-filled" href="#">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="categories" aria-label="Categorias de produtos"></section>
 
