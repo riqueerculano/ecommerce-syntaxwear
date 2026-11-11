@@ -1,13 +1,19 @@
-/* Estilos base */
+/* base.css */
 body {
   font-family: var(--fonte-principal);
   color: #333333;
 }
 
 main {
-  padding: 2.5rem 0 0 2.5rem;
+  padding: 2.5rem 0 2.5rem;
   max-width: 1360px;
   margin: 0 auto;
+}
+
+@media (max-width:1280px) {
+  main {
+    padding: 0.625rem;
+  }
 }
 
 .btn {
@@ -18,18 +24,18 @@ main {
   color: #ffffff;
   font-weight: 400;
   padding: 10px 20px;
-  transition: background-color 0.3s, border 0.3s
+  transition: backgound-color 0.3s, border 0.3s;
 }
 
 .btn-outline {
-  border: 2px solid #ffffff;
   background-color: transparent;
-  line-height: 21px;
+  border: 2px solid #ffffff;
+  line-height: 23px;
 }
 
 .btn-filled {
   background-color: #ffffff;
-  color: #6329A2
+  color: #6329A2;
 }
 
 .btn:hover {
