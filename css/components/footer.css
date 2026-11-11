@@ -72,9 +72,13 @@
 }
 
 
-.footer-copy {
+.footer-copy{
     font-size: 1.25rem;
     text-align: center;
     color: #f3f3f3;
     padding: 0.55rem 0 0.7rem;
+}
+
+hr {
+    max-width: 1360px;
 }
